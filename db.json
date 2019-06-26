@@ -9,6 +9,16 @@
           "id": 45670,
           "name": "Magellan Pipeline Company, L.P.",
           "liftSiteAddress": "7901 Wallisvile Road, Houston, TX"
+        },
+         {
+          "id": 45670,
+          "name": "Magellan Pipeline Company, L.P. part2",
+          "liftSiteAddress": "7901 Wallisvile Road, Houston, TX"
+        },
+         {
+          "id": 45670,
+          "name": "Magellan Pipeline Company, L.P. part 3",
+          "liftSiteAddress": "7901 Wallisvile Road, Houston, TX"
         }
       ],
       "drops": [
