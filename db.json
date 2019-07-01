@@ -120,11 +120,962 @@
       "orderNumber": "FN-0000775",
       "status": "STARTED",
       "lifts": [
-        {
-          "id": 45670,
-          "name": "Magellan Pipeline Company, L.P.",
-          "liftSiteAddress": "7901 Wallisvile Road, Houston, TX"
-        }
+       {
+  "lift": {
+    "createdDate": "2019-06-24T12:36:36.430Z",
+    "createdBy": {
+      "id": 3,
+      "firstName": "Dadly",
+      "lastName": "Bows",
+      "profilePictureFile": {
+        "id": 2721,
+        "reference": "",
+        "type": "jpg",
+        "fileLocation": "attachements%2F%2FMV775rnl-GDPR.jpg",
+        "preview": "attachements//0q1BB2rm-GDPR-preview.jpg",
+        "markedForDelete": null,
+        "fileName": "GDPR.jpg"
+      }
+    },
+    "lastModifiedDate": "2019-06-24T13:15:19.346Z",
+    "lastModifiedBy": {
+      "id": 17,
+      "firstName": "Freddy",
+      "lastName": "Mitchell",
+      "profilePictureFile": null
+    },
+    "lastModifiedTimezone": null,
+    "id": 45670,
+    "supplier": {
+      "id": 213,
+      "name": "Motiva Enterprises Unbranded",
+      "status": "ACTIVE",
+      "company": null
+    },
+    "origin": {
+      "id": 1076,
+      "name": "T76TX2831 Magellan Pipeline Company, L.P., 7901 Wallisvile Road, Houston, TX 77029",
+      "plainName": "Magellan Pipeline Company, L.P.",
+      "location": {
+        "id": 1076,
+        "type": "STREET_ADDRESS",
+        "country": "USA",
+        "isValidated": true,
+        "address1": "7901 Wallisvile Road",
+        "address2": null,
+        "county": null,
+        "state": "TX",
+        "city": "Houston",
+        "timeZone": "America/Chicago",
+        "zip": "77029",
+        "latitude": 29.7884867,
+        "longitude": -95.2869666,
+        "status": "ACTIVE"
+      },
+      "tcn": "T76TX2831",
+      "status": "ACTIVE",
+      "sourceType": "FNN"
+    },
+    "truck": null,
+    "odometer": null,
+    "arrivalTime": "2019-06-24T12:36:00.000Z",
+    "departureTime": null,
+    "timeZone": "Europe/Kiev",
+    "bolFile": null,
+    "bolNumber": null,
+    "bolDate": "2019-06-24T12:36:00.000Z",
+    "loadingNumber": null,
+    "products": [
+      {
+        "id": 79413,
+        "requestedProduct": {
+          "id": 340,
+          "productName": "Branded Reform 87 Oct w/10% Eth",
+          "shortName": "B RFG87E",
+          "productCategory1": {
+            "id": 1,
+            "productCategoryName": "Branded",
+            "status": "ACTIVE"
+          },
+          "productCategory2": {
+            "id": 4,
+            "productCategoryName": "Gasohol",
+            "status": "ACTIVE"
+          },
+          "productCategory3": {
+            "id": 15,
+            "productCategoryName": "Unleaded",
+            "status": "ACTIVE"
+          },
+          "productCategory4": {
+            "id": 19,
+            "productCategoryName": "Reformulated",
+            "status": "ACTIVE"
+          },
+          "productClass": {
+            "id": 7,
+            "productClassName": "Gasoline",
+            "status": "ACTIVE"
+          },
+          "status": "ACTIVE"
+        },
+        "requestedQuantity": "1000",
+        "product": null,
+        "grossQuantity": null,
+        "netQuantity": null,
+        "additive": false,
+        "productUnavailable": null
+      }
+    ]
+  },
+  "activeOrder": {
+    "sending": false,
+    "sendingProducts": false,
+    "fetching": false,
+    "hasDataToSync": false,
+    "offlineData": {},
+    "errors": {
+      "lifts": {},
+      "drops": {}
+    },
+    "lifts": [
+      {
+        "createdDate": "2019-06-24T12:36:36.430Z",
+        "createdBy": {
+          "id": 3,
+          "firstName": "Dadly",
+          "lastName": "Bows",
+          "profilePictureFile": {
+            "id": 2721,
+            "reference": "",
+            "type": "jpg",
+            "fileLocation": "attachements%2F%2FMV775rnl-GDPR.jpg",
+            "preview": "attachements//0q1BB2rm-GDPR-preview.jpg",
+            "markedForDelete": null,
+            "fileName": "GDPR.jpg"
+          }
+        },
+        "lastModifiedDate": "2019-06-24T13:15:19.346Z",
+        "lastModifiedBy": {
+          "id": 17,
+          "firstName": "Freddy",
+          "lastName": "Mitchell",
+          "profilePictureFile": null
+        },
+        "lastModifiedTimezone": null,
+        "id": 45670,
+        "supplier": {
+          "id": 213,
+          "name": "Motiva Enterprises Unbranded",
+          "status": "ACTIVE",
+          "company": null
+        },
+        "origin": {
+          "id": 1076,
+          "name": "T76TX2831 Magellan Pipeline Company, L.P., 7901 Wallisvile Road, Houston, TX 77029",
+          "plainName": "Magellan Pipeline Company, L.P.",
+          "location": {
+            "id": 1076,
+            "type": "STREET_ADDRESS",
+            "country": "USA",
+            "isValidated": true,
+            "address1": "7901 Wallisvile Road",
+            "address2": null,
+            "county": null,
+            "state": "TX",
+            "city": "Houston",
+            "timeZone": "America/Chicago",
+            "zip": "77029",
+            "latitude": 29.7884867,
+            "longitude": -95.2869666,
+            "status": "ACTIVE"
+          },
+          "tcn": "T76TX2831",
+          "status": "ACTIVE",
+          "sourceType": "FNN"
+        },
+        "truck": null,
+        "odometer": null,
+        "arrivalTime": "2019-06-24T12:36:00.000Z",
+        "departureTime": null,
+        "timeZone": "Europe/Kiev",
+        "bolFile": null,
+        "bolNumber": null,
+        "bolDate": "2019-06-24T12:36:00.000Z",
+        "loadingNumber": null,
+        "products": [
+          {
+            "id": 79413,
+            "requestedProduct": {
+              "id": 340,
+              "productName": "Branded Reform 87 Oct w/10% Eth",
+              "shortName": "B RFG87E",
+              "productCategory1": {
+                "id": 1,
+                "productCategoryName": "Branded",
+                "status": "ACTIVE"
+              },
+              "productCategory2": {
+                "id": 4,
+                "productCategoryName": "Gasohol",
+                "status": "ACTIVE"
+              },
+              "productCategory3": {
+                "id": 15,
+                "productCategoryName": "Unleaded",
+                "status": "ACTIVE"
+              },
+              "productCategory4": {
+                "id": 19,
+                "productCategoryName": "Reformulated",
+                "status": "ACTIVE"
+              },
+              "productClass": {
+                "id": 7,
+                "productClassName": "Gasoline",
+                "status": "ACTIVE"
+              },
+              "status": "ACTIVE"
+            },
+            "requestedQuantity": "1000",
+            "product": null,
+            "grossQuantity": null,
+            "netQuantity": null,
+            "additive": false,
+            "productUnavailable": null
+          }
+        ]
+      }
+    ],
+    "drops": [
+      {
+        "id": 40697,
+        "destination": {
+          "createdDate": "2018-08-10T13:40:32.889Z",
+          "createdBy": {
+            "id": 5,
+            "firstName": "Olly",
+            "lastName": "Olsen",
+            "profilePictureFile": null
+          },
+          "lastModifiedDate": "2019-06-07T00:45:00.658Z",
+          "lastModifiedBy": {
+            "id": 143,
+            "firstName": "FNNDev",
+            "lastName": "Support",
+            "profilePictureFile": null
+          },
+          "lastModifiedTimezone": "America/New_York",
+          "id": 1,
+          "retailerId": 3,
+          "name": "TEST We Need Fuel 1",
+          "dedicatedWholesaler": {
+            "id": 4,
+            "name": "ZZZTEST We Sell Fuel",
+            "companyType": "WHOLESALER",
+            "mainAddress": {
+              "id": 1321,
+              "type": "STREET_ADDRESS",
+              "country": "USA",
+              "isValidated": false,
+              "address1": "123 Sample Rd",
+              "address2": null,
+              "county": null,
+              "state": "TX",
+              "city": "Bangs",
+              "timeZone": "America/Chicago",
+              "zip": "76823",
+              "latitude": null,
+              "longitude": null,
+              "status": "ACTIVE"
+            },
+            "email": "fnn.for.wholesaler@gmail.com",
+            "phone": {
+              "countryCode": "1",
+              "number": "7777777777",
+              "formattedNumber": "(+1)7777777777"
+            },
+            "activated": null
+          },
+          "weekendDeliveries": false,
+          "location": {
+            "id": 1320,
+            "type": "STREET_ADDRESS",
+            "country": "USA",
+            "isValidated": true,
+            "address1": "5015 Westheimer Rd",
+            "address2": "",
+            "county": "Harris",
+            "state": "TX",
+            "city": "Houston",
+            "timeZone": "America/Chicago",
+            "zip": "77056",
+            "latitude": 29.7391116,
+            "longitude": -95.4634682,
+            "status": "ACTIVE"
+          },
+          "mainContact": null,
+          "contactManager": null,
+          "phone": {
+            "countryCode": "1",
+            "number": "8888888889",
+            "formattedNumber": "(+1)8888888889"
+          },
+          "fax": null,
+          "email": "fnn.for.retailer@gmail.com",
+          "standardNote": "Please be sure to double check that the fill caps are appropriately fastened after each delivery.",
+          "standardPO": "WNF20189909",
+          "annualEstimatedVolume": null,
+          "workHourFrom": null,
+          "workHourTo": null,
+          "supplier": null,
+          "origin": null,
+          "carriers": [],
+          "tanks": [
+            {
+              "createdDate": "2018-08-10T13:42:19.775Z",
+              "createdBy": {
+                "id": 5,
+                "firstName": "Olly",
+                "lastName": "Olsen",
+                "profilePictureFile": null
+              },
+              "lastModifiedDate": "2019-04-17T22:24:51.612Z",
+              "lastModifiedBy": {
+                "id": 135,
+                "firstName": "Mike",
+                "lastName": "Yang",
+                "profilePictureFile": null
+              },
+              "lastModifiedTimezone": "America/Chicago",
+              "id": 1,
+              "productCategory": {
+                "id": 15,
+                "productCategoryName": "Unleaded",
+                "status": "ACTIVE"
+              },
+              "productClass": {
+                "id": 7,
+                "productClassName": "Gasoline",
+                "status": "ACTIVE"
+              },
+              "defaultProduct": {
+                "id": 340,
+                "productName": "Branded Reform 87 Oct w/10% Eth",
+                "shortName": "B RFG87E",
+                "productCategory1": {
+                  "id": 1,
+                  "productCategoryName": "Branded",
+                  "status": "ACTIVE"
+                },
+                "productCategory2": {
+                  "id": 4,
+                  "productCategoryName": "Gasohol",
+                  "status": "ACTIVE"
+                },
+                "productCategory3": {
+                  "id": 15,
+                  "productCategoryName": "Unleaded",
+                  "status": "ACTIVE"
+                },
+                "productCategory4": {
+                  "id": 19,
+                  "productCategoryName": "Reformulated",
+                  "status": "ACTIVE"
+                },
+                "productClass": {
+                  "id": 7,
+                  "productClassName": "Gasoline",
+                  "status": "ACTIVE"
+                },
+                "status": "ACTIVE"
+              },
+              "serviceType": "STATIONARY",
+              "type": "BELOW_GROUND",
+              "tankNo": 1,
+              "tankSize": 10000,
+              "reorderLevel": 8900,
+              "pumpRequired": false,
+              "tiedTo": null,
+              "status": "ACTIVE",
+              "isUsed": true
+            },
+            {
+              "createdDate": "2018-08-10T13:42:55.192Z",
+              "createdBy": {
+                "id": 5,
+                "firstName": "Olly",
+                "lastName": "Olsen",
+                "profilePictureFile": null
+              },
+              "lastModifiedDate": "2019-06-07T00:45:00.658Z",
+              "lastModifiedBy": {
+                "id": 143,
+                "firstName": "FNNDev",
+                "lastName": "Support",
+                "profilePictureFile": null
+              },
+              "lastModifiedTimezone": "America/New_York",
+              "id": 2,
+              "productCategory": {
+                "id": 12,
+                "productCategoryName": "Ultra Low Sulfur",
+                "status": "ACTIVE"
+              },
+              "productClass": {
+                "id": 4,
+                "productClassName": "Diesel",
+                "status": "ACTIVE"
+              },
+              "defaultProduct": {
+                "id": 494,
+                "productName": "Branded #2 Ultra Low Sulfur Diesel",
+                "shortName": "B NO2ULS",
+                "productCategory1": {
+                  "id": 1,
+                  "productCategoryName": "Branded",
+                  "status": "ACTIVE"
+                },
+                "productCategory2": {
+                  "id": 14,
+                  "productCategoryName": "Undyed",
+                  "status": "ACTIVE"
+                },
+                "productCategory3": {
+                  "id": 12,
+                  "productCategoryName": "Ultra Low Sulfur",
+                  "status": "ACTIVE"
+                },
+                "productCategory4": null,
+                "productClass": {
+                  "id": 4,
+                  "productClassName": "Diesel",
+                  "status": "ACTIVE"
+                },
+                "status": "ACTIVE"
+              },
+              "serviceType": "STATIONARY",
+              "type": "BELOW_GROUND",
+              "tankNo": 2,
+              "tankSize": 8000,
+              "reorderLevel": 7000,
+              "pumpRequired": false,
+              "tiedTo": null,
+              "status": "ACTIVE",
+              "isUsed": true
+            },
+            {
+              "createdDate": "2019-04-17T22:24:32.580Z",
+              "createdBy": {
+                "id": 135,
+                "firstName": "Mike",
+                "lastName": "Yang",
+                "profilePictureFile": null
+              },
+              "lastModifiedDate": "2019-04-17T22:24:32.580Z",
+              "lastModifiedBy": {
+                "id": 135,
+                "firstName": "Mike",
+                "lastName": "Yang",
+                "profilePictureFile": null
+              },
+              "lastModifiedTimezone": "America/Chicago",
+              "id": 348,
+              "productCategory": {
+                "id": 9,
+                "productCategoryName": "Premium",
+                "status": "ACTIVE"
+              },
+              "productClass": {
+                "id": 7,
+                "productClassName": "Gasoline",
+                "status": "ACTIVE"
+              },
+              "defaultProduct": {
+                "id": 354,
+                "productName": "Branded Reform 93 Oct w/10% Eth",
+                "shortName": "B RFG93E",
+                "productCategory1": {
+                  "id": 1,
+                  "productCategoryName": "Branded",
+                  "status": "ACTIVE"
+                },
+                "productCategory2": {
+                  "id": 4,
+                  "productCategoryName": "Gasohol",
+                  "status": "ACTIVE"
+                },
+                "productCategory3": {
+                  "id": 9,
+                  "productCategoryName": "Premium",
+                  "status": "ACTIVE"
+                },
+                "productCategory4": {
+                  "id": 19,
+                  "productCategoryName": "Reformulated",
+                  "status": "ACTIVE"
+                },
+                "productClass": {
+                  "id": 7,
+                  "productClassName": "Gasoline",
+                  "status": "ACTIVE"
+                },
+                "status": "ACTIVE"
+              },
+              "serviceType": "STATIONARY",
+              "type": "BELOW_GROUND",
+              "tankNo": 3,
+              "tankSize": 10000,
+              "reorderLevel": 1000,
+              "pumpRequired": true,
+              "tiedTo": null,
+              "status": "ACTIVE",
+              "isUsed": true
+            }
+          ],
+          "status": "ACTIVE"
+        },
+        "truck": null,
+        "odometer": null,
+        "arrivalTime": null,
+        "departureTime": null,
+        "timeZone": null,
+        "deliveryTicketFile": null,
+        "signatureFile": null,
+        "products": [
+          {
+            "id": 128932,
+            "dropProductLines": [
+              {
+                "id": 129948,
+                "requestedProduct": {
+                  "id": 340,
+                  "productName": "Branded Reform 87 Oct w/10% Eth",
+                  "shortName": "B RFG87E",
+                  "productCategory1": {
+                    "id": 1,
+                    "productCategoryName": "Branded",
+                    "status": "ACTIVE"
+                  },
+                  "productCategory2": {
+                    "id": 4,
+                    "productCategoryName": "Gasohol",
+                    "status": "ACTIVE"
+                  },
+                  "productCategory3": {
+                    "id": 15,
+                    "productCategoryName": "Unleaded",
+                    "status": "ACTIVE"
+                  },
+                  "productCategory4": {
+                    "id": 19,
+                    "productCategoryName": "Reformulated",
+                    "status": "ACTIVE"
+                  },
+                  "productClass": {
+                    "id": 7,
+                    "productClassName": "Gasoline",
+                    "status": "ACTIVE"
+                  },
+                  "status": "ACTIVE"
+                },
+                "requestedQuantity": "1000",
+                "deliveredProduct": null,
+                "deliveredGrossQuantity": null,
+                "deliveredNetQuantity": null,
+                "productUnavailable": null,
+                "tank": {
+                  "createdDate": "2018-08-10T13:42:19.775Z",
+                  "createdBy": {
+                    "id": 5,
+                    "firstName": "Olly",
+                    "lastName": "Olsen",
+                    "profilePictureFile": null
+                  },
+                  "lastModifiedDate": "2019-04-17T22:24:51.612Z",
+                  "lastModifiedBy": {
+                    "id": 135,
+                    "firstName": "Mike",
+                    "lastName": "Yang",
+                    "profilePictureFile": null
+                  },
+                  "lastModifiedTimezone": "America/Chicago",
+                  "id": 1,
+                  "productCategory": {
+                    "id": 15,
+                    "productCategoryName": "Unleaded",
+                    "status": "ACTIVE"
+                  },
+                  "productClass": {
+                    "id": 7,
+                    "productClassName": "Gasoline",
+                    "status": "ACTIVE"
+                  },
+                  "defaultProduct": {
+                    "id": 340,
+                    "productName": "Branded Reform 87 Oct w/10% Eth",
+                    "shortName": "B RFG87E",
+                    "productCategory1": {
+                      "id": 1,
+                      "productCategoryName": "Branded",
+                      "status": "ACTIVE"
+                    },
+                    "productCategory2": {
+                      "id": 4,
+                      "productCategoryName": "Gasohol",
+                      "status": "ACTIVE"
+                    },
+                    "productCategory3": {
+                      "id": 15,
+                      "productCategoryName": "Unleaded",
+                      "status": "ACTIVE"
+                    },
+                    "productCategory4": {
+                      "id": 19,
+                      "productCategoryName": "Reformulated",
+                      "status": "ACTIVE"
+                    },
+                    "productClass": {
+                      "id": 7,
+                      "productClassName": "Gasoline",
+                      "status": "ACTIVE"
+                    },
+                    "status": "ACTIVE"
+                  },
+                  "serviceType": "STATIONARY",
+                  "type": "BELOW_GROUND",
+                  "tankNo": 1,
+                  "tankSize": 10000,
+                  "reorderLevel": 8900,
+                  "pumpRequired": false,
+                  "tiedTo": null,
+                  "status": "ACTIVE",
+                  "isUsed": true
+                }
+              }
+            ],
+            "tank": {
+              "createdDate": "2018-08-10T13:42:19.775Z",
+              "createdBy": {
+                "id": 5,
+                "firstName": "Olly",
+                "lastName": "Olsen",
+                "profilePictureFile": null
+              },
+              "lastModifiedDate": "2019-04-17T22:24:51.612Z",
+              "lastModifiedBy": {
+                "id": 135,
+                "firstName": "Mike",
+                "lastName": "Yang",
+                "profilePictureFile": null
+              },
+              "lastModifiedTimezone": "America/Chicago",
+              "id": 1,
+              "productCategory": {
+                "id": 15,
+                "productCategoryName": "Unleaded",
+                "status": "ACTIVE"
+              },
+              "productClass": {
+                "id": 7,
+                "productClassName": "Gasoline",
+                "status": "ACTIVE"
+              },
+              "defaultProduct": {
+                "id": 340,
+                "productName": "Branded Reform 87 Oct w/10% Eth",
+                "shortName": "B RFG87E",
+                "productCategory1": {
+                  "id": 1,
+                  "productCategoryName": "Branded",
+                  "status": "ACTIVE"
+                },
+                "productCategory2": {
+                  "id": 4,
+                  "productCategoryName": "Gasohol",
+                  "status": "ACTIVE"
+                },
+                "productCategory3": {
+                  "id": 15,
+                  "productCategoryName": "Unleaded",
+                  "status": "ACTIVE"
+                },
+                "productCategory4": {
+                  "id": 19,
+                  "productCategoryName": "Reformulated",
+                  "status": "ACTIVE"
+                },
+                "productClass": {
+                  "id": 7,
+                  "productClassName": "Gasoline",
+                  "status": "ACTIVE"
+                },
+                "status": "ACTIVE"
+              },
+              "serviceType": "STATIONARY",
+              "type": "BELOW_GROUND",
+              "tankNo": 1,
+              "tankSize": 10000,
+              "reorderLevel": 8900,
+              "pumpRequired": false,
+              "tiedTo": null,
+              "status": "ACTIVE",
+              "isUsed": true
+            },
+            "fuelStart": null,
+            "fuelEnd": null,
+            "waterStart": null,
+            "waterEnd": null
+          }
+        ],
+        "isRetain": false,
+        "retain": false
+      }
+    ],
+    "isBolFileSending": false,
+    "isDeliveryTicketFileSending": false,
+    "orderId": 40276,
+    "error": null,
+    "actionType": "GET_ORDER_DETAILS_SUCCESS",
+    "createdDate": "2019-06-24T12:36:17.400Z",
+    "createdBy": {
+      "id": 3,
+      "firstName": "Dadly",
+      "lastName": "Bows",
+      "profilePictureFile": {
+        "id": 2721,
+        "reference": "",
+        "type": "jpg",
+        "fileLocation": "attachements%2F%2FMV775rnl-GDPR.jpg",
+        "preview": "attachements//0q1BB2rm-GDPR-preview.jpg",
+        "markedForDelete": null,
+        "fileName": "GDPR.jpg"
+      }
+    },
+    "lastModifiedDate": "2019-06-24T13:15:19.347Z",
+    "lastModifiedBy": {
+      "id": 17,
+      "firstName": "Freddy",
+      "lastName": "Mitchell",
+      "profilePictureFile": null
+    },
+    "lastModifiedTimezone": null,
+    "id": 40276,
+    "orderNumber": "FN-0000771",
+    "status": "STARTED",
+    "orderNotes": null,
+    "customerBillTo": {
+      "id": 3,
+      "name": "ZZZTEST We Need Fuel",
+      "companyType": "RETAILER",
+      "mainAddress": {
+        "id": 1319,
+        "type": "STREET_ADDRESS",
+        "country": "USA",
+        "isValidated": false,
+        "address1": "123 Sample Rd",
+        "address2": null,
+        "county": null,
+        "state": "TX",
+        "city": "Bangs",
+        "timeZone": "America/Chicago",
+        "zip": "76823",
+        "latitude": null,
+        "longitude": null,
+        "status": "ACTIVE"
+      },
+      "email": "fnn.for.retailer@gmail.com",
+      "phone": {
+        "countryCode": "1",
+        "number": "8888888888",
+        "formattedNumber": "(+1)8888888888"
+      },
+      "activated": true
+    },
+    "carrier": {
+      "id": 1,
+      "name": "ZZZTEST We Haul Fuel",
+      "companyType": "CARRIER",
+      "mainAddress": {
+        "id": 1315,
+        "type": "STREET_ADDRESS",
+        "country": "USA",
+        "isValidated": false,
+        "address1": "123 Sample Rd",
+        "address2": null,
+        "county": null,
+        "state": "TX",
+        "city": "Bangs",
+        "timeZone": "America/Chicago",
+        "zip": "76823",
+        "latitude": null,
+        "longitude": null,
+        "status": "ACTIVE"
+      },
+      "email": "fnn.for.carrier@gmail.com",
+      "phone": {
+        "countryCode": "1",
+        "number": "6666666666",
+        "formattedNumber": "(+1)6666666666"
+      },
+      "activated": true
+    },
+    "retailer": {
+      "id": 3,
+      "name": "ZZZTEST We Need Fuel",
+      "companyType": "RETAILER",
+      "mainAddress": {
+        "id": 1319,
+        "type": "STREET_ADDRESS",
+        "country": "USA",
+        "isValidated": false,
+        "address1": "123 Sample Rd",
+        "address2": null,
+        "county": null,
+        "state": "TX",
+        "city": "Bangs",
+        "timeZone": "America/Chicago",
+        "zip": "76823",
+        "latitude": null,
+        "longitude": null,
+        "status": "ACTIVE"
+      },
+      "email": "fnn.for.retailer@gmail.com",
+      "phone": {
+        "countryCode": "1",
+        "number": "8888888888",
+        "formattedNumber": "(+1)8888888888"
+      },
+      "activated": true
+    },
+    "wholesaler": null,
+    "mst": null,
+    "liftDriver": {
+      "id": 17,
+      "username": "fnn.for.carrier+testdriver@gmail.com",
+      "firstName": "Freddy",
+      "lastName": "Mitchell",
+      "mobilePhone": null,
+      "email": "fnn.for.carrier+testdriver@gmail.com"
+    },
+    "dropDriver": {
+      "id": 17,
+      "username": "fnn.for.carrier+testdriver@gmail.com",
+      "firstName": "Freddy",
+      "lastName": "Mitchell",
+      "mobilePhone": null,
+      "email": "fnn.for.carrier+testdriver@gmail.com"
+    },
+    "earliestDeliveryTime": "2019-06-24T23:00:00.575Z",
+    "latestDeliveryTime": "2019-06-25T04:59:00.000Z",
+    "scheduledDeliveryTime": null,
+    "timeZone": "America/Chicago",
+    "carrierAssignedDate": "2019-06-24T12:36:17.371Z",
+    "requestor": {
+      "id": 1,
+      "name": "ZZZTEST We Haul Fuel",
+      "companyType": "CARRIER",
+      "mainAddress": {
+        "id": 1315,
+        "type": "STREET_ADDRESS",
+        "country": "USA",
+        "isValidated": false,
+        "address1": "123 Sample Rd",
+        "address2": null,
+        "county": null,
+        "state": "TX",
+        "city": "Bangs",
+        "timeZone": "America/Chicago",
+        "zip": "76823",
+        "latitude": null,
+        "longitude": null,
+        "status": "ACTIVE"
+      },
+      "email": "fnn.for.carrier@gmail.com",
+      "phone": {
+        "countryCode": "1",
+        "number": "6666666666",
+        "formattedNumber": "(+1)6666666666"
+      },
+      "activated": true
+    },
+    "verifier": null,
+    "fulfilledTime": null,
+    "verificationTime": null,
+    "creationDate": "2019-06-24T12:36:17.271Z",
+    "startDate": "2019-06-24T12:36:00.000Z",
+    "poNumber": null,
+    "splitLoad": false,
+    "source": "FNN",
+    "originalOrder": null,
+    "attachments": [],
+    "relatedCompanies": [
+      {
+        "id": 1,
+        "name": "ZZZTEST We Haul Fuel",
+        "companyType": "CARRIER",
+        "mainAddress": {
+          "id": 1315,
+          "type": "STREET_ADDRESS",
+          "country": "USA",
+          "isValidated": false,
+          "address1": "123 Sample Rd",
+          "address2": null,
+          "county": null,
+          "state": "TX",
+          "city": "Bangs",
+          "timeZone": "America/Chicago",
+          "zip": "76823",
+          "latitude": null,
+          "longitude": null,
+          "status": "ACTIVE"
+        },
+        "email": "fnn.for.carrier@gmail.com",
+        "phone": {
+          "countryCode": "1",
+          "number": "6666666666",
+          "formattedNumber": "(+1)6666666666"
+        },
+        "activated": true
+      },
+      {
+        "id": 3,
+        "name": "ZZZTEST We Need Fuel",
+        "companyType": "RETAILER",
+        "mainAddress": {
+          "id": 1319,
+          "type": "STREET_ADDRESS",
+          "country": "USA",
+          "isValidated": false,
+          "address1": "123 Sample Rd",
+          "address2": null,
+          "county": null,
+          "state": "TX",
+          "city": "Bangs",
+          "timeZone": "America/Chicago",
+          "zip": "76823",
+          "latitude": null,
+          "longitude": null,
+          "status": "ACTIVE"
+        },
+        "email": "fnn.for.retailer@gmail.com",
+        "phone": {
+          "countryCode": "1",
+          "number": "8888888888",
+          "formattedNumber": "(+1)8888888888"
+        },
+        "activated": true
+      }
+    ],
+    "requestPayload": {
+      "orderId": 40276
+    },
+    "succeedAt": "2019-06-25T06:22:08.757Z",
+    "failedAt": null
+  },
+  "isOnline": true,
+  "isBolFileSending": false
+}
       ],
       "drops": [],
       "earliestDeliveryTime": "2019-06-24T23:00:00.575Z",
